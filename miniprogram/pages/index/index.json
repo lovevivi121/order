@@ -1,5 +1,6 @@
 {
-  "usingComponents": {
-    "cloud-tip-modal": "/components/cloudTipModal/index"
-  }
+    "usingComponents": {
+        "SearchInput": "../../components/SearchInput/SearchInput"
+    },
+    "navigationBarTitleText": "店铺点餐"
 }

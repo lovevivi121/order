@@ -1,27 +1,21 @@
-/**app.wxss**/
-.container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  box-sizing: border-box;
-} 
-
-button {
-  background: initial;
+page,
+view,
+text,
+swiper,
+swiper-item,
+navigator {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
-button:focus{
-  outline: 0;
-}
 
-button::after{
-  border: none;
-}
-
+/*
+主题颜色 通过变量实现
+*/
 
 page {
-  background: #f6f6f6;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
+    --themeColor: #eb4450;
+    /* 定义统一字体大小，假设设计稿大小是375px 1px=2rpx*/
+    font-size: 28rpx;
 }
